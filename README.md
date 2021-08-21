@@ -14,7 +14,9 @@ Syntax highlighted code block
 # Header 1
 ## Header 2
 ### Header 3
-
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
 - Bulleted
 - List
 
